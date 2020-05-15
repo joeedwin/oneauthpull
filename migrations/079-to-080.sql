@@ -1,0 +1,1 @@
+ALTER TABLE addresses ADD COLUMN whatsapp_dial_code VARCHAR(5);
