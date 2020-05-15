@@ -13,6 +13,7 @@ module.exports = {
         landmark: {type: Sequelize.DataTypes.STRING, allowNull: true},
         city: {type: Sequelize.DataTypes.STRING, allowNull: false},
         dial_code: {type: Sequelize.DataTypes.STRING(5)},
+        whatsapp_dial_code: {type: Sequelize.DataTypes.STRING(5)},
         primary: {type: Sequelize.DataTypes.BOOLEAN, allowNull: false}
     },
 

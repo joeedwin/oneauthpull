@@ -109,7 +109,7 @@ router.get('/edit',
       if (user.dataValues.whatsapp_number) {
         const whaNoSplit = user.dataValues.whatsapp_number.split('-')
         if (whaNoSplit.length > 1) {
-          user.dial_code_wa = whaNoSplit[0]
+          user.whatsapp_dial_code = whaNoSplit[0]
           user.whatsapp_number = whaNoSplit[1]
         } else {
           user.whatsapp_number = whaNoSplit[0]
